@@ -6419,9 +6419,18 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+@font-face {
+  font-family: "Lato";
+  src: url("assets/fonts/Lato-Regular/Lato-Regular.eot");
+  src: url("assets/fonts/Lato-Regular/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Lato-Regular/Lato-Regular.woff") format("woff"), url("assets/fonts/Lato-Regular/Lato-Regular.ttf") format("truetype"), url("assets/fonts/Lato-Regular/Lato-Regular.svg#Lato") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 .app-container {
   position: relative;
   overflow: hidden;
   width: 100%;
   max-width: 1980px;
   margin: 0 auto; }
+  .app-container * {
+    font-family: 'Lato'; }
