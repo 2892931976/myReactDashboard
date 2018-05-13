@@ -1,0 +1,9 @@
+@import '../node_modules/bulma/bulma.sass';
+
+.app-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1980px;
+    margin: 0 auto;
+}
