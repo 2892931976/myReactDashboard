@@ -15,51 +15,20 @@ class SideMenu extends Component {
   render() {    
     return (
         <aside className="side-menu">
-           {/* <ul>
-                <li>
-                    <a class="item-side-menu">
-                        <img src={imgIndicator} alt="imgIndicator"></img>
-                    </a>
-                </li>   
-                <li>
-                    <a class="item-side-menu">
-                        <img src={imgChat} alt="imgChat"></img>
-                    </a>
-                </li>
-                <li>
-                    <a class="item-side-menu">
-                        <img src={imgFolder} alt="imgFolder"></img>
-                    </a>
-                </li>
-                <li>
-                    <a class="item-side-menu">
-                        <img src={imgEmail} alt="imgEmail"></img>
-                    </a>
-                </li>
-                <li>
-                    <a class="item-side-menu">
-                        <img src={imgSettings} alt="imgSettings"></img>
-                    </a>
-                </li>  
-            </ul> */}
            
-            <a class="item-side-menu">
+            <a className="item-side-menu">
                 <img src={imgIndicator} alt="imgIndicator"></img>
             </a>
-        
-            <a class="item-side-menu">
+            <a className="item-side-menu">
                 <img src={imgChat} alt="imgChat"></img>
             </a>
-        
-            <a class="item-side-menu">
+            <a className="item-side-menu">
                 <img src={imgFolder} alt="imgFolder"></img>
             </a>
-        
-            <a class="item-side-menu">
+            <a className="item-side-menu">
                 <img src={imgEmail} alt="imgEmail"></img>
             </a>
-        
-            <a class="item-side-menu">
+            <a className="item-side-menu">
                 <img src={imgSettings} alt="imgSettings"></img>
             </a>
                    

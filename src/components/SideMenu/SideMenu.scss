@@ -6,16 +6,18 @@
     height: 100%;
     padding-top: 100px;
     border-right: solid 0.5px #ebedf8;
+    background-color: white;
 }
 
 .item-side-menu {
-    margin: 50px 10px 0px 10px;
+    margin: 50px auto;
     display: block;
+    width: 20px;
     img {
         margin: 0 auto;
         display: block;
     }
     &:hover {
-        transform: scale(1.07);
+        transform: scale(1.1);
     }
 }

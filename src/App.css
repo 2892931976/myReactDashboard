@@ -6430,7 +6430,6 @@ label.panel-block {
   position: relative;
   overflow: hidden;
   width: 100%;
-  max-width: 1980px;
   margin: 0 auto; }
   .app-cont * {
     font-family: 'Lato'; }
@@ -6439,3 +6438,8 @@ label.panel-block {
   width: 90%;
   max-width: 1024px;
   padding-left: 50px; }
+
+.section-title {
+  margin: 30px 0;
+  font-weight: bold;
+  color: #1a173b; }
