@@ -9,7 +9,7 @@ import { Route } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="app-container">
+      <div className="app-cont">
         <Header />
         <Route exact = {true} path="/" component = {Home} />
         <Route path = "/campaigns" component = {Campaigns} />

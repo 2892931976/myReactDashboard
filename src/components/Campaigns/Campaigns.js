@@ -4,7 +4,7 @@ import './Campaigns.css';
 class Campaigns extends Component {
     render() {
         return (
-            <section className="container">
+            <section className="container section-cont">
                 <h1>Campaign component</h1>
             </section>
         );

@@ -1,7 +1,7 @@
 @import '../node_modules/bulma/bulma.sass';
 @import './sass/fonts.scss';
 
-.app-container {
+.app-cont {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -10,4 +10,10 @@
     *{
         font-family: 'Lato';
     }
+}
+
+.section-cont {
+    width: 90%;
+    max-width: 1024px;
+    padding-left: 50px;
 }

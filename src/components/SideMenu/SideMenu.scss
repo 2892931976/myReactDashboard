@@ -1,0 +1,21 @@
+.side-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 100%;
+    padding-top: 100px;
+    border-right: solid 0.5px #ebedf8;
+}
+
+.item-side-menu {
+    margin: 50px 10px 0px 10px;
+    display: block;
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+    &:hover {
+        transform: scale(1.07);
+    }
+}
