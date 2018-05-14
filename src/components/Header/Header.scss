@@ -1,9 +1,13 @@
-@import '../../sass/mq.sass';
 
 .navbar{
     background-color: #FFFFFF;
     padding: 9px 0px;
 }
+
+.container{ 
+    max-width: 96%;
+}
+
 .button.is-primary {
     background-color: #0077ff;
     font-size: 13px;
@@ -34,4 +38,9 @@ a.r-item {
         bottom: 5px;
         left: 13px;
     }
+}
+
+a.navbar-item:hover {
+    background: transparent;
+    color: #1880e7;
 }

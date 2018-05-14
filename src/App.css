@@ -6426,20 +6426,37 @@ label.panel-block {
   font-weight: normal;
   font-style: normal; }
 
+/* DG */
 .app-cont {
   position: relative;
   overflow: hidden;
   width: 100%;
   margin: 0 auto; }
   .app-cont * {
-    font-family: 'Lato'; }
+    font-family: 'Lato';
+    font-size: 13px; }
 
 .section-cont {
-  width: 90%;
+  width: 91%;
   max-width: 1024px;
   padding-left: 50px; }
+  @media only screen and (max-width: 991px) {
+    .section-cont {
+      padding-left: 0; } }
 
 .section-title {
-  margin: 30px 0;
+  margin: 25px 0;
   font-weight: bold;
-  color: #1a173b; }
+  color: #1a173b;
+  display: inline-block; }
+
+.block-title {
+  margin: 10px 0 22px;
+  font-weight: bold;
+  color: #1a173b;
+  display: inline-block; }
+
+.white-cont {
+  background-color: white;
+  border: solid 0.5px #ebedf8;
+  padding: 25px; }

@@ -6,7 +6,9 @@ class Header extends Component {
   
     constructor(props) {
         super(props);
-        this.state = {isToggleOn: false};
+        this.state = {
+            isToggleOn: false
+        };
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -19,28 +21,28 @@ class Header extends Component {
     render() {
 
         let menuActive = this.state.isToggleOn ? 'is-active' : '';
-        
+
         return (
             <nav className="navbar has-shadow">
                 <div className="container">
 
                     <div className="navbar-brand">
                         <a className="navbar-item" href="">
-                        <div className="logo-img"></div>
+                            <div className="logo-img"></div>
                         </a>
                         <div className={'navbar-burger burger ' + menuActive} onClick={this.handleClick}>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
                     </div>
 
                     <div className={'navbar-menu' + menuActive}>
                         <div className="navbar-start">
                             <div className='navbar-item'>
-                                <Link to="/" className="navbar-item r-item">Overview</Link>  
-                                <Link to="/campaigns" className="navbar-item r-item">Campaigns</Link> 
-                                <Link to="/analytics" className="navbar-item r-item">Analytics</Link>
+                                <Link to="/" className='navbar-item r-item'> Overview</Link>  
+                                <Link to="/campaigns" className='navbar-item r-item'> Campaigns</Link> 
+                                <Link to="/analytics" className='navbar-item r-item'> Analytics</Link>
                             </div>  
                         </div>
                         <div className="navbar-end">

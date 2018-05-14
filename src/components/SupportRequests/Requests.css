@@ -1,0 +1,28 @@
+/* DG */
+.table-header div {
+  color: #b4bac6;
+  font-size: 9px;
+  opacity: 0.8; }
+
+.table-columns div {
+  color: #8a96a0;
+  font-size: 11px; }
+
+.table-columns div:nth-child(1) {
+  color: #354052; }
+
+.table-columns span {
+  color: #b4bac6;
+  font-size: 9px;
+  opacity: 0.8; }
+
+@media only screen and (max-width: 991px) {
+  .table-columns {
+    background: #fafbfc;
+    margin: 5px 0 20px;
+    padding: 20px;
+    border-radius: 3px; } }
+
+.column {
+  overflow: hidden;
+  text-overflow: ellipsis; }

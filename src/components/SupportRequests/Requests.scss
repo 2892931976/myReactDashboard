@@ -1,0 +1,35 @@
+@import '../../sass/mq.scss';
+
+.table-header {
+    div {
+        color: #b4bac6;
+        font-size: 9px;
+        opacity: 0.8
+    } 
+}
+
+.table-columns {
+    div {
+        color: #8a96a0;
+        font-size: 11px; 
+    }
+    div:nth-child(1) {
+        color: #354052;
+    }
+    span {
+        color: #b4bac6;
+        font-size: 9px;
+        opacity: 0.8
+    }
+    @media #{$large-xs-max} {
+        background: #fafbfc;
+        margin: 5px 0 20px;
+        padding: 20px;
+        border-radius: 3px;
+    }
+}
+
+.column {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

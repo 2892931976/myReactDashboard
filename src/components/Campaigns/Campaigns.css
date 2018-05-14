@@ -1,0 +1,11 @@
+.campaigns-cont {
+  background-color: white;
+  border: solid 0.5px #ebedf8;
+  padding: 20px; }
+  .campaigns-cont h1 {
+    font-weight: bold;
+    color: #354052;
+    margin-bottom: 15px; }
+  .campaigns-cont p {
+    color: #8a96a0;
+    opacity: 0.5; }
