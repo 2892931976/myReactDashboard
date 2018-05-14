@@ -28,8 +28,7 @@ a.r-item {
     height: 30px;
     background-color: #0077ff;
     border-radius: 30px;
-    &:after {
-        content: "";
+    span {
         position: absolute;
         width: 4px;
         height: 4px;
@@ -37,6 +36,60 @@ a.r-item {
         border-radius: 30px;
         bottom: 5px;
         left: 13px;
+    }
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        border-radius: 30px;
+    }
+    &:after {
+        background-color: #f0166d;
+        z-index: -2;
+    }
+    &:before {
+        background-color: #0077ff;
+        z-index: -1;
+    }
+    &:hover {
+        opacity: 0.95;
+        &:before {
+            animation: glitch .5s cubic-bezier(.25, .46, .45, .94) both infinite
+        }
+        &:after {
+            animation: glitch .5s cubic-bezier(.25, .46, .45, .94) reverse both infinite
+        }
+    }
+}
+
+@keyframes glitch {
+    0% {
+        -webkit-transform: translate(0);
+        transform: translate(0)
+    }
+    20% {
+        -webkit-transform: translate(-5px, 5px);
+        transform: translate(-5px, 5px)
+    }
+    40% {
+        -webkit-transform: translate(-5px, -5px);
+        transform: translate(-5px, -5px)
+    }
+    60% {
+        -webkit-transform: translate(5px, 5px);
+        transform: translate(5px, 5px)
+    }
+    80% {
+        -webkit-transform: translate(5px, -5px);
+        transform: translate(5px, -5px)
+    }
+    to {
+        -webkit-transform: translate(0);
+        transform: translate(0)
     }
 }
 

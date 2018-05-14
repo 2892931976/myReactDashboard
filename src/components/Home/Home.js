@@ -4,11 +4,9 @@ import React, { Component } from 'react';
 import './Home.css';
 import Graphics from "../Graphics/Graphics";
 import Requests from "../SupportRequests/Requests";
-class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
 
+class Home extends Component {
+    
     render() {
 
         return (
@@ -28,7 +26,7 @@ class Home extends Component {
                 <div className="footer-num">
                     <p>Showing <span>1</span> to <span>5</span> of 25 elements</p>
                 </div>
-                
+
             </section>
         );
     }

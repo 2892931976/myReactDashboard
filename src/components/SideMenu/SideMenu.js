@@ -8,10 +8,6 @@ import imgSettings from '../../assets/side-5.svg';
 
 class SideMenu extends Component {
   
-  constructor(props) {
-      super(props);
-  }
-
   render() {    
     return (
         <aside className="side-menu">

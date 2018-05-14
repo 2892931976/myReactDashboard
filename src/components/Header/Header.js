@@ -28,7 +28,7 @@ class Header extends Component {
 
                     <div className="navbar-brand">
                         <a className="navbar-item" href="">
-                            <div className="logo-img"></div>
+                            <div className="logo-img"><span></span></div>
                         </a>
                         <div className={'navbar-burger burger ' + menuActive} onClick={this.handleClick}>
                             <span></span>
